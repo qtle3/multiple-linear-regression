@@ -41,3 +41,7 @@ print(np.column_stack((y_pred, y_test)))
 
 # Making a single prediction (for example the profit of a startup with R&D Spend = 160000, Administration Spend = 130000, Marketing Spend = 300000 and State = 'California')
 print(regressor.predict([[1, 0, 0, 160000, 130000, 300000]]))
+
+# Getting the final linear regression equation with the values of the coefficients
+print(regressor.coef_)
+print(regressor.intercept_)
