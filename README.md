@@ -20,4 +20,4 @@ The dataset used in this project contains data from 50 startups, including infor
 - **Model Training and Evaluation:** The linear regression model is trained on the training set and then used to predict values for the test set, allowing comparison between predicted and actual results.
 - **Feature Engineering:** The script demonstrates how to handle categorical variables using one-hot encoding to allow a regression model to interpret non-numeric data like "State".
 - **Prediction and Interpretation:** It shows how to make specific predictions using new data inputs and outputs the regression coefficients to interpret the impact of each feature on the predicted result.
-- - **Regression Coefficients and Intercept:** The script outputs the coefficients and intercept of the regression model, which describe how each variable influences the profit.
+-  **Regression Coefficients and Intercept:** The script outputs the coefficients and intercept of the regression model, which describe how each variable influences the profit.
